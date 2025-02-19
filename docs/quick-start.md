@@ -243,9 +243,7 @@ source ~/.zshrc   # 如果使用 zsh
   </TabItem>
 </Tabs>
 
-:::warning
-对于 winget, curl 或 weget，安装完 uv 后需要重启命令行 / IDE 或重新加载配置文件
-:::
+**注意**：安装完 `uv` 后，可能需要重新加载命令行窗口或 IDE，以确保环境变量生效。如果使用的是 `winget`、`curl` 或 `wget` 安装，请确保安装路径已正确添加到系统的 `PATH` 环境变量中。
 
 
 更多 uv 安装方法参考：[Installing uv](https://docs.astral.sh/uv/getting-started/installation/)
